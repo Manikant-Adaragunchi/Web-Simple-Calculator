@@ -1,0 +1,99 @@
+/* Main container that centers the calculator vertically and horizontally */
+.body1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Styling for button hover effect */
+button:hover {
+    background: #d3d3d3; /* Light grey */
+    align-content: center;
+    cursor: pointer;
+}
+
+/* Outer box of the calculator */
+.backg {
+    background-color: #e6f0ff; /* Light blue background */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+    width: 270px;
+    border: 4px solid black;
+}
+
+/* Calculator body width (optional/unused) */
+.calci_body {
+    width: 270px;
+}
+
+/* Input display styling */
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border: 4px; /* You can use border: 4px solid black; instead */
+    border-color: black;
+    border-radius: 5px;
+    box-sizing: border-box; /* Includes padding in width */
+    margin-bottom: 10px;
+}
+
+/* Special button backgrounds */
+
+/* Clear button - red */
+#clear {
+    background-color: red;
+}
+
+/* Operator buttons - dark grey */
+#per, 
+#division, 
+#plus, 
+#sub, 
+#mul {
+    background-color: #555555;
+}
+
+/* Equals button - green */
+#eq {
+    background-color: green;
+}
+
+/* Dummy buttons - light grey and muted text */
+#dummy1 {
+    background-color: #cccccc;
+    color: #666666;
+}
+#dummy2 {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+/* Cell spacing */
+td {
+    padding: 5px;
+}
+
+/* Common button styling */
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
