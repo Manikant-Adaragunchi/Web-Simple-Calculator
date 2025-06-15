@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+
+<body>
+    <center>
+    <h1>CALCULATOR</h1>
+    </center>
+    <div class="body1">
+    <center>
+
+        <div class="backg">
+            <div calci_body="rows">
+            <input type="text" id="d" readonly>
+            <table border="2">
+                
+                <tr>
+                    <td>
+                        <button id="per" type="button" onclick="input('%')">%</button>
+                    </td>
+                    <td>
+                        <button id="division" type="button" onclick="input('/')">/</button>
+                    </td>
+                    <td>
+                        <button id="mul" type="button" onclick="input('*')">x</button>
+                    </td>
+                    <td>
+                        <button id="sub" type="button" onclick="input('-')">-</button>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td> 
+                         <button type="button" onclick="input('7')">7</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('8')">8</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('9')">9</button>
+                    </td>
+                    <td>
+                        <button id="clear" type="button" onclick="cleardisplay()">c</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="input('4')">4</button></td>
+                    <td>
+                        <button type="button" onclick="input('5')">5</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('6')">6</button>
+                    </td>
+                    <td>
+                        <button id="plus" type="button" rowspan="2" onclick="input('+')">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="input('1')">1</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('2')">2</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('3')">3</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="input('.')">.</button>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="input('0')">0</button>
+                    </td>
+                    <td>
+                        <button id="dummy1">M</button>
+                        </td>
+                    <td>
+                        <button id="dummy2">S</button>
+                    </td>
+                    <td>
+                        <button id="eq" type="button" onclick="cal()">=</button>
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </center>
+    </div>
+
+    
+</body>
+</html>
